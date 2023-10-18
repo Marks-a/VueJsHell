@@ -154,27 +154,31 @@ export default {
 
 <style scoped>
 .app {
-  background-color: grey;
+  background-color: rgb(8, 2, 15);
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  color: aqua;
+  
 }
 
 .content {
   display: flex;
-  align-items: left;
-  justify-content: center;
-  height: 100vh;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
 }
 
 .main-content {
+  margin-top: 100px;
+  margin-left: 50px;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   
 }
 </style>

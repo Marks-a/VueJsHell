@@ -79,16 +79,25 @@
     padding: 10px 20px;
     background-color: #333; /* Default background color */
     color: white;
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1f38;
+
   }
   
   .logo-section {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
   
-  .page-title {
-    margin-left: 10px;
-  }
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+}
   
   .menu-section {
     display: flex;
@@ -96,18 +105,21 @@
   }
   
   .login-logout-button {
-    background-color: #007bff;
+    font-size: 1rem;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: rgba(128, 0, 128, 0.5);
   }
-  
-  .user-name {
-    margin-right: 10px;
-    font-weight: bold;
-    font-size: 16px;
-  }
+  .login-logout-button:hover {
+  background-color: rgba(128, 0, 128, 0.5);
+}
+.user-section {
+  display: flex;
+  align-items: center;
+}
   </style>
   
